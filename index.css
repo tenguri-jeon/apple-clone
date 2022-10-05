@@ -1,0 +1,28 @@
+:root{
+    /* black color */
+    --maincolor-black1: #1d1d1f;
+  /* gray clolr */
+    --maincolor-gray1:#999;
+    --maincolor-gray2:#6e6e73;
+    --maincolor-gray3:#424245;
+    /* blue color */
+    --maincolor-blue:#0066cc;
+    /* orangecolor */
+    --maincolor-orange:#bf4800;
+    /* green */
+    --maincolor-green:#00ff41;
+
+    /* background color */
+    --backgroundcolor-gray:#f8f8f9;
+    --backgroundcolor-header: rgba(0,0,0,0.8);
+}
+
+.hide
+{
+  
+}
+
+.header{
+    background-color: rgba(0,0,0,0.8);
+}
+
