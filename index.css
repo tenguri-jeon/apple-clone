@@ -19,10 +19,145 @@
 
 .hide
 {
-  
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
 }
 
-.header{
-    background-color: rgba(0,0,0,0.8);
+.unit-link{
+  display: block;
+  position: absolute;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
+.nav-header{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.nav-header>ul {
+  display: flex;
+  justify-content: space-between;
+  width: 995px;
+  margin: 0 auto;
+  max-width: 835px;
+}
+
+.nav-header  li {
+  height: 43px;
+}
+
+.header-applelogo{
+  width: 14px;
+  background-image: url(img/apple\ logo.svg);
+  background-repeat: no-repeat;
+  background-size: 14px 44px;
+  background-position: center center;
+}
+
+.store{
+  width: 39px;
+  background-image: url(img/apple-header-store.svg);
+  background-repeat: no-repeat;
+}
+
+.mac{
+  width:39px;
+  background-image: url(img/apple-header-mac-text.svg);
+  background-repeat: no-repeat;
+}
+
+.ipad{
+  width: 40px;
+  background-image: url(img/apple-header-ipad-text.svg);
+  background-repeat: no-repeat;
+}
+
+.iphone{
+  width: 53px;
+  background-image: url(img/apple-header-iphone-text.svg);
+  background-repeat: no-repeat;
+}
+
+.watch{
+  width: 50px;
+  background-image: url(img/appel-header-watch.svg);
+  background-repeat: no-repeat;
+}
+
+.airpods{
+  width: 59px;
+  background-image: url(img/apple-header-airpods-text.svg);
+  background-repeat: no-repeat;
+}
+
+.tv-and-home{
+  width: 57px;
+  background-image: url(img/apple-header-tv\ and\ home.svg);
+  background-repeat: no-repeat;
+}
+
+.only-apple{
+  width: 96px;
+  background-image: url(img/apple-header-only-apple-text.svg);
+  background-repeat: no-repeat;
+}
+
+.accessories{
+  width: 55px;
+  background-image: url(img/apple-header-acc.svg);
+  background-repeat: no-repeat;
+}
+
+.coustomer{
+  width: 54px;
+  background-image: url(img/apple-header-customer.svg);
+  background-repeat: no-repeat;
+}
+
+.search{
+  width: 30px;
+  background-image: url(img/apple-header-search-icon.svg);
+  background-repeat: no-repeat;
+}
+
+.my-bag{
+  width: 28px;
+  background-image: url(img/apple-header-mybag.svg);
+  background-repeat: no-repeat;
+}
+
+.selection-earphone{
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.airpods2gen-imgarea {
+  background-image: url(img/airpods-menu-list-airpods2gen.svg);
+  width: 39px;
+  height: 53.98px;
+  background-repeat: no-repeat;
+}
+
+.airpods3gen-imgarea {
+  background-image: url(img/airpods-menu-list-airpods3gen.svg);
+  width: 33.98px;
+  height: 53.98px;
+  background-repeat: no-repeat;
+}
+
+.airpods-pro2gen-imgarea {
+  background-image: url(img/airpods-menulist-airpodspro2gen.svg);
+  width: 38.98px;
+  height: 53.98px;
+  background-repeat: no-repeat;
+}
+
+.
