@@ -5,6 +5,7 @@
     --maincolor-gray1:#999;
     --maincolor-gray2:#6e6e73;
     --maincolor-gray3:#424245;
+    --maincolor-gray4:#f8f8f9;
     /* blue color */
     --maincolor-blue:#0066cc;
     /* orangecolor */
@@ -134,9 +135,16 @@
 }
 
 .selection-earphone{
-  margin: 0 auto;
   display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+  width: 800px;
+}
 
+.selection-earphone>li {
+  margin: 10px;
+  margin: 0 auto;
 }
 
 .airpods2gen-imgarea {
@@ -144,6 +152,7 @@
   width: 39px;
   height: 53.98px;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .airpods3gen-imgarea {
@@ -151,6 +160,7 @@
   width: 33.98px;
   height: 53.98px;
   background-repeat: no-repeat;
+  margin: 0 auto;s
 }
 
 .airpods-pro2gen-imgarea {
@@ -158,6 +168,88 @@
   width: 38.98px;
   height: 53.98px;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
-.
+.airpods-max-imgarea {
+  background-image: url(img/menulist-airpodsmax.svg);
+  width: 38.98px;
+  height: 53.98px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.comparison-container-imgarea {
+  background-image: url(img/airpods-menu-list-\ compare.svg);
+  width: 42px;
+  height: 53.98px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.apple-music-imgarea {
+  background-image: url(img/apple_music_light__fexraacz3dme_large.svg);
+  width: 42px;
+  height: 53.98px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.selection-earphone-text {
+  font-size: 12px;
+  color: var(--maincolor-black1);
+}
+
+.new-text {
+  font-size: 12px;
+  color: var(--maincolor-orange);
+}
+
+a{
+  text-decoration: none;
+}
+
+.more-impormation {
+  background-color: var(--maincolor-gray4);
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.more-impormation>p {
+  text-align: center;
+  font-size: 12px;
+  color: #1d1d1f;
+}
+
+.more-impormation a{
+  color: var(--maincolor-blue);
+}
+
+#about-airpods{
+  padding-top: 32px;
+}
+
+.detail-airpodspro {
+  background-image: url(img/airpodspro-main-img.jpg);
+  width: 1520px;
+  height: 639px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-airpodspro-headtittle {
+  color: var(--maincolor-green);
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.appeal-airpodspro-text {
+  color: #f5f5f7;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
