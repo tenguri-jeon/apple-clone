@@ -202,6 +202,9 @@
 }
 
 .selection-earphone-text {
+  text-align: center;
+  display: block;
+  line-height: 16px;
   font-size: 12px;
   color: var(--maincolor-black1);
 }
@@ -209,6 +212,8 @@
 .new-text {
   font-size: 12px;
   color: var(--maincolor-orange);
+  display: block;
+  text-align: center;
 }
 
 a{
@@ -233,16 +238,21 @@ a{
 }
 
 #about-airpods{
-  padding-top: 32px;
+  padding: 32px;
 }
 
 .detail-airpodspro {
   background-image: url(img/airpodspro-main-img.jpg);
-  width: 100%;
+  max-width: 1520px;
+  height: 820px;
+  border-radius: 32px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: cover;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .detail-airpodspro-headtittle {
@@ -257,5 +267,85 @@ a{
   font-size: 100px;
   font-weight: bold;
   text-align: center;
+  margin-top: 16px;
 }
 
+.airpods-pro-price {
+  color: #f5f5f7;
+  font-size: 21px;
+  text-align: center;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.more-impormation-airpods-pro{
+  display: flex;
+  margin: 0 auto;
+}
+
+.about-airpods-pro-price{
+  background-color: #f5f5f7;
+  width: 97.7px;
+  height: 44px;
+  border-radius: 16px;
+  display: block;
+}
+
+.airpodspro-price-text{
+  justify-content: center;
+  color: var(--maincolor-black1);
+  font-size: 17px;
+
+}
+
+.about-airpods-pro-impormation-text {
+  color: #f5f5f7;
+  font-size: 17px;
+  display: flex;
+  position: relative;
+  margin-left: 10px;
+}
+
+.about-airpods-pro-impormation-text::after{
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: 2px solid #f5f5f7;
+  border-top: none;
+  border-right: none;
+  display: block;
+  rotate: -130deg;
+  position: absolute;
+  right: -10px;
+  top: 5px;
+}
+
+.detail-airpods-container {
+  max-width: 1520px;
+  height: 820px;
+  border-radius: 32px;
+  background-image: url(img/airpods_3rd_gen__dhy5bknhvtqq_large.jpg);
+  max-width: 1520px;
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.appeal-airpods-headtag {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.detail-airpodstext-generaion {
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.detail-airpodstext-price {
+  font-size: 21px;
+  margin-top: 8px;
+  border-radius: 16px;
+}
