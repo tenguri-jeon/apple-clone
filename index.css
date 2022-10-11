@@ -153,6 +153,7 @@
   height: 53.98px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .airpods3gen-imgarea {
@@ -160,7 +161,8 @@
   width: 33.98px;
   height: 53.98px;
   background-repeat: no-repeat;
-  margin: 0 auto;s
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .airpods-pro2gen-imgarea {
@@ -169,6 +171,7 @@
   height: 53.98px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 5px;
 }
 
 .airpods-max-imgarea {
@@ -177,14 +180,16 @@
   height: 53.98px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .comparison-container-imgarea {
   background-image: url(img/airpods-menu-list-\ compare.svg);
-  width: 42px;
+  width: 50px;
   height: 53.98px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .apple-music-imgarea {
@@ -193,6 +198,7 @@
   height: 53.98px;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .selection-earphone-text {
@@ -232,8 +238,7 @@ a{
 
 .detail-airpodspro {
   background-image: url(img/airpodspro-main-img.jpg);
-  width: 1520px;
-  height: 639px;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
@@ -253,3 +258,4 @@ a{
   font-weight: bold;
   text-align: center;
 }
+
