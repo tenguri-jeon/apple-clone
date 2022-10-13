@@ -333,13 +333,19 @@ a{
   max-width: 1520px;
   height: 820px;
   border-radius: 32px;
-  background-image: url(img/airpods_3rd_gen__dhy5bknhvtqq_large.jpg);
   max-width: 1520px;
-  background-position: cover;
+  position: relative;
+}
+
+.airpods-3gen-container-imgarea{
+  background-image: url(img/airpods_3rd_gen__dhy5bknhvtqq_large.jpg);
+  background-position: cover cover;
+  background-repeat: no-repeat;
+  height: 820px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
-  background-repeat: no-repeat;
 }
 
 .appeal-airpods-headtag {
@@ -357,4 +363,71 @@ a{
   font-size: 21px;
   margin-top: 8px;
   border-radius: 16px;
+}
+
+.about-airpods-buy{
+  background-color: var(--maincolor-blue);
+  width: 97.7px;
+  height: 44px;
+  border-radius: 32px;
+  position: relative;
+  margin-right: 16px;
+}
+
+.airpods-buy-text{
+  color: white;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  right: 18px;
+  top: 10px;
+}
+
+.about-airpods-impormation-text{
+  color: var(--maincolor-blue);
+
+}
+
+.about-airpods-impormation-text::after{
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: 2px solid var(--maincolor-blue);
+  border-top: none;
+  border-right: none;
+  display: block;
+  rotate: -130deg;
+  position: absolute;
+  right: -10px;
+  top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 548px;
+    top: 600px;
+}
+
+.airpods-2gen-container-imgarea{
+  background-image: url();
+  background-position: cover cover;
+  background-repeat: no-repeat;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.airpods-max-container-imgarea{
+  background-image: url(img/airpods_max__f265q4g4ddym_large.png);
+  background-position: cover cover;
+  background-repeat: no-repeat;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
