@@ -460,27 +460,27 @@ a{
 .grid-container > div {
   border: 2px solid black;
 }
-        .four-version-airpods.airpods2gen-detail-expalne-grid-area {grid-area: n1;}
-        .four-version-airpods.airpods3gen-detail-expalne-grid-area {grid-area: n2;}
-        .four-version-airpods.airpodspro-detail-expalne-grid-area {grid-area: n3;}
-        .four-version-airpods.airpodmax-detail-expalne-grid-area {grid-area: n4;}
-        .airpods-sound-ability.airpods2gen-detail-expalne-grid-area {grid-area: n5;}
-        .airpods-sound-ability.airpods3gen-detail-expalne-grid-area {grid-area: n6;}
-        .airpods-sound-ability.airpodspro-detail-expalne-grid-area {grid-area: n7;}
-        .airpods-sound-ability.airpodmax-detail-expalne-grid-area {grid-area: n8;}
-        .airpods-noise-cancelling.airpods2gen-detail-expalne-grid-area {grid-area: n9;}
-        .airpods-noise-cancelling.airpods3gen-detail-expalne-grid-area {grid-area: n10}
-        .airpods-noise-cancelling.airpodspro-detail-expalne-grid-area {grid-area: n11}
-        .airpods-noise-cancelling.airpodmax-detail-expalne-grid-area {grid-area: n12}
-        .airpods-waterproof.airpods2gen-detail-expalne-grid-area {grid-area: n13}
-        .airpods-waterproof.airpods3gen-detail-expalne-grid-area {grid-area: n14}
-        .airpods-waterproof.airpodspro-detail-expalne-grid-area {grid-area: n15}
-        .airpods-waterproof.airpodmax-detail-expalne-grid-area {grid-area: n16;}
-        .airpods-charge-case.airpods2gen-detail-expalne-grid-area {grid-area: n17;}
-        .airpods-charge-case.airpods3gen-detail-expalne-grid-area {grid-area: n18;}
-        .airpods-charge-case.airpodspro-detail-expalne-grid-area {grid-area: n19;}
-        .airpods-charge-case.airpodmax-detail-expalne-grid-area {grid-area: n20;}
-        .airpods-charge-timeing.airpods2gen-detail-expalne-grid-area {grid-area: n21;}
-        .airpods-charge-timeing.airpods3gen-detail-expalne-grid-area {grid-area: n22}
-        .airpods-charge-timeing.airpodspro-detail-expalne-grid-area {grid-area: n23}
-        .airpods-charge-timeing.airpodmax-detail-expalne-grid-area {grid-area: n24}
+        .airpods-2nd-gen .device {grid-area: n1;}
+        .airpods-3nd-gen .device {grid-area: n2;}
+        .airpods-pro-2nd-gen .device {grid-area: n3;}
+        .airpods-max .device{grid-area: n4;}
+        .airpods-2nd-gen .spetialaudi-row {grid-area: n5;}
+        .airpods-3nd-gen .spetialaudi-row {grid-area: n6;}
+        .airpods-pro-2nd-gen .spetialaudi-row {grid-area: n7;}
+        .airpods-max .spetialaudi-row {grid-area: n8;}
+        .airpods-2nd-gen .anc-transparency-row {grid-area: n9;}
+        .airpods-3nd-gen .anc-transparency-row {grid-area: n10}
+        .airpods-pro-2nd-gen .anc-transparency-row {grid-area: n11}
+        .airpods-max .anc-transparency-row {grid-area: n12}
+        .airpods-2nd-gen .sweat-and-water-row {grid-area: n13}
+        .airpods-3nd-gen .sweat-and-water-row {grid-area: n14}
+        .airpods-pro-2nd-gen .sweat-and-water-row {grid-area: n15}
+        .airpods-max .sweat-and-water-row {grid-area: n16;}
+        .airpods-2nd-gen .charging-row {grid-area: n17;}
+        .airpods-3nd-gen .charging-row {grid-area: n18;}
+        .airpods-pro-2nd-gen .charging-row {grid-area: n19;}
+        .airpods-max .charging-row {grid-area: n20;}
+        .airpods-2nd-gen .subgke-charge-row {grid-area: n21;}
+        .airpods-3nd-gen .subgke-charge-row {grid-area: n22}
+        .airpods-pro-2nd-gen .subgke-charge-row {grid-area: n23}
+        .airpods-max .subgke-charge-row {grid-area: n24}
